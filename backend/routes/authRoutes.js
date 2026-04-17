@@ -10,13 +10,12 @@ router.post('/api/register', async (req, res) => {
   await db.collection('users').insertOne(user);
   res.json({ message: 'User registered successfully' });
 });
-
 // Login user
 router.post('/api/login', async (req, res) => {
   const db = await connectToDatabase();
-  const { username, password } = req.body;
+  const { email, password } = req.body;
 
-  const user = await db.collection('users').findOne({ username, password });
+  const user = await db.collection('users').findOne({ email, password });
 
   if (user) {
     res.json({ message: 'Login successful', token: 'sampletoken123' });
