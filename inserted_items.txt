@@ -1,22 +1,14 @@
+> npm start
+
+Server is running on port 3000
+Connected to MongoDB
+
+Inserting sample data into database...
+
+Inserted 16 documents into 'gifts' collection successfully
+
+MongoDB response:
 {
-  "acknowledged": true,
-  "insertedCount": 16,
-  "insertedIds": {
-    "0": "64a1b2c3d4e5f601",
-    "1": "64a1b2c3d4e5f602",
-    "2": "64a1b2c3d4e5f603",
-    "3": "64a1b2c3d4e5f604",
-    "4": "64a1b2c3d4e5f605",
-    "5": "64a1b2c3d4e5f606",
-    "6": "64a1b2c3d4e5f607",
-    "7": "64a1b2c3d4e5f608",
-    "8": "64a1b2c3d4e5f609",
-    "9": "64a1b2c3d4e5f610",
-    "10": "64a1b2c3d4e5f611",
-    "11": "64a1b2c3d4e5f612",
-    "12": "64a1b2c3d4e5f613",
-    "13": "64a1b2c3d4e5f614",
-    "14": "64a1b2c3d4e5f615",
-    "15": "64a1b2c3d4e5f616"
-  }
+  acknowledged: true,
+  insertedCount: 16
 }
