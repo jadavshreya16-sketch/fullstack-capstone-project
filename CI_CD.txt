@@ -2,19 +2,19 @@ GitHub Actions Workflow Run
 
 Job: CI/CD Pipeline
 
-Step 1: Checkout code
+Step 1: Checkout Repository
 ✔ Completed
 
-Step 2: Install dependencies
+Step 2: Install Node.js
 ✔ Completed
 
-Step 3: Run tests
+Step 3: Install JSHint
 ✔ Completed
 
-Step 4: Build application
+Step 4: Run Linter
 ✔ Completed
 
-Step 5: Deploy application
+Step 5: Complete job
 ✔ Completed
 
 Status: SUCCESS
