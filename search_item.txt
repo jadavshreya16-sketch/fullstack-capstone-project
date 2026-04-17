@@ -1,0 +1,13 @@
+curl "http://localhost:3000/api/search?category=Furniture"
+[
+  {
+    "id": "1",
+    "name": "Chair",
+    "category": "Furniture"
+  },
+  {
+    "id": "2",
+    "name": "Table",
+    "category": "Furniture"
+  }
+]
