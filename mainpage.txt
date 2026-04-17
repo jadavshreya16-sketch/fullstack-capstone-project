@@ -1,0 +1,18 @@
+curl http://localhost:3000/api/gifts
+[
+  {
+    "id": "1",
+    "name": "Chair",
+    "category": "Furniture"
+  },
+  {
+    "id": "2",
+    "name": "Table",
+    "category": "Furniture"
+  },
+  {
+    "id": "3",
+    "name": "Books",
+    "category": "Education"
+  }
+]
