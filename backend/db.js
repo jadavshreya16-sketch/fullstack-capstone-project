@@ -1,6 +1,7 @@
+require('dotenv').config();
 const { MongoClient } = require('mongodb');
 
-const uri = "mongodb://localhost:27017";
+const uri = process.env.MONGO_URI || "mongodb://localhost:27017";
 
 let client;
 let db;
@@ -9,7 +10,7 @@ async function connectToDatabase() {
   if (!client) {
     client = new MongoClient(uri);
     await client.connect();
-    db = client.db("giftlink");
+    db = client.db("giftdb");
   }
   return db;
 }
